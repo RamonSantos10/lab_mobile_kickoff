@@ -1,16 +1,28 @@
-# lab_mobile_kickoff
+# Lab Mobile Kickoff
 
-A new Flutter project.
+Este projeto é o ponto de partida (kickoff) para o Laboratório Mobile. O objetivo principal é estabelecer a estrutura base de uma aplicação Flutter seguindo padrões de organização de pastas e modelagem de dados.
 
-## Getting Started
+## 🚀 Estrutura do Projeto
 
-This project is a starting point for a Flutter application.
+O projeto foi organizado seguindo uma arquitetura simplificada para facilitar a manutenção:
 
-A few resources to get you started if this is your first Flutter project:
+- **`domain`**: Contém as entidades e modelos de negócio (ex: Classe `Servico`).
+- **`data`**: Responsável pela manipulação de dados e repositórios (ex: `ServicoRepository`).
+- **`presentation`**: Camada visual contendo as telas e widgets da interface.
+- **`application`**: Camada de lógica de aplicação e estados.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Funcionalidades Iniciais
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [x] Configuração inicial do ambiente Flutter.
+- [x] Implementação da interface básica com `AppBar` customizada.
+- [x] Criação do modelo de dados `Servico`.
+- [x] Implementação de repositório em memória (fake repository).
+
+## 📱 Como executar
+
+1. Certifique-se de ter o Flutter instalado.
+2. Clone o repositório.
+3. No terminal, execute:
+   ```bash
+   flutter pub get
+   flutter run
